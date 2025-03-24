@@ -83,9 +83,7 @@ Para testar com diferentes tabuleiros, edite o arquivo `SudokuSolver.java` e mod
 - **Algoritmo de Programação Dinâmica** para LCS.
 - **Backtracking** para resolução do Sudoku.
 
-## 💪 Contribuição
-Sinta-se à vontade para contribuir com melhorias nas soluções ou adicionar novos desafios!
 
 ## 👨‍💻 Autor
-[Seu Nome Aqui]
+Danilo Takeo Kanizawa
 
