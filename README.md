@@ -52,11 +52,8 @@ Para compilar e executar a solução em Java:
 - **Algoritmo de Programação Dinâmica** para LCS.
 - **Backtracking** para resolução do Sudoku.
 
-## Contribuição
-
-Sinta-se à vontade para contribuir com melhorias nas soluções ou adicionar novos desafios!
 
 ## Autor
 
-[Seu Nome Aqui] 
+Danilo Takeo Kanizawa
 
