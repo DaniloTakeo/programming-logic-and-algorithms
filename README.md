@@ -1,11 +1,6 @@
-# ✨ Lógica de Programação ✨
+# ✨ Lógica de Programação
 
-Este repositório contém soluções de desafios de lógica de programação:
-1. **LCS (Longest Common Subsequence) 📝** - Determina a maior subsequência comum entre duas strings.
-2. **Sudoku Solver 🎲** - Resolve um tabuleiro de Sudoku incompleto utilizando backtracking.
-3. **Jogo dos Cavalos no Xadrez ♞** - Determina o menor número de movimentos para um cavalo ir de um ponto a outro no tabuleiro.
-
----
+Este repositório tem como objetivo conter soluções para diversos desafios de lógica de programação.
 
 ## 1. 🔢 Longest Common Subsequence (LCS)
 
@@ -54,7 +49,7 @@ Resolver um tabuleiro de Sudoku incompleto, preenchendo os números de 1 a 9 sem
 ### 📝 Exemplo:
 ```bash
 Entrada:
-[ 
+[
   [5,3,0,0,7,0,0,0,0],
   [6,0,0,1,9,5,0,0,0],
   [0,9,8,0,0,0,0,6,0],
@@ -62,7 +57,7 @@ Entrada:
 ]
 
 Saída:
-[ 
+[
   [5,3,4,6,7,8,9,1,2],
   [6,7,2,1,9,5,3,4,8],
   [1,9,8,3,4,2,5,6,7],
@@ -83,25 +78,25 @@ Para testar com diferentes tabuleiros, edite o arquivo `SudokuSolver.java` e mod
 ## 3. ♞ Jogo dos Cavalos no Xadrez
 
 ### ✨ Problema:
-Dado um tabuleiro de tamanho `N x N`, um cavalo inicia na posição `(x1, y1)` e precisa chegar até `(x2, y2)`. O objetivo é determinar o menor número de movimentos necessários para alcançar a posição final.
+Dado um tabuleiro `N x N`, um cavalo inicia na posição `(x1, y1)` e precisa chegar à posição `(x2, y2)`. O objetivo é calcular o menor número de movimentos necessários para atingir o destino.
 
 ### 🔄 Entrada:
-- Um inteiro `N` representando o tamanho do tabuleiro.
-- Coordenadas `(x1, y1)` do ponto inicial.
-- Coordenadas `(x2, y2)` do ponto de destino.
+- Dimensões do tabuleiro `N`.
+- Coordenadas iniciais `(x1, y1)`.
+- Coordenadas alvo `(x2, y2)`.
 
 ### 🔠 Saída:
-- O número mínimo de movimentos necessários para que o cavalo chegue ao destino.
+- Um número representando a quantidade mínima de movimentos necessários para que o cavalo atinja o destino.
 
 ### 📝 Exemplo:
 ```bash
 Entrada:
 N = 8
-(x1, y1) = (0, 0)
-(x2, y2) = (7, 7)
+x1 = 0, y1 = 0
+x2 = 7, y2 = 7
 
 Saída:
-Mínimo de movimentos necessários: 6
+6
 ```
 
 ### ⚙️ Como Executar:
@@ -110,7 +105,42 @@ Para compilar e executar a solução em Java:
 javac KnightMoves.java
 java KnightMoves
 ```
-Caso queira testar diferentes tamanhos de tabuleiro e posições, edite o arquivo `KnightMoves.java` e modifique os valores de entrada.
+Altere os valores de entrada no arquivo `KnightMoves.java` para testar diferentes casos.
+
+---
+
+## 4. 🔢 Expressão Matemática Balanceada
+
+### ✨ Problema:
+Verificar se uma expressão matemática contém parênteses, colchetes e chaves corretamente balanceados.
+
+### 🔄 Entrada:
+- Uma string contendo uma expressão matemática com `()`, `{}` e `[]`.
+
+### 🔠 Saída:
+- `true` se a expressão estiver balanceada.
+- `false` caso contrário.
+
+### 📝 Exemplo:
+```bash
+Entrada:
+"{[()]}"
+Saída:
+true
+
+Entrada:
+"{[(])}"
+Saída:
+false
+```
+
+### ⚙️ Como Executar:
+Para compilar e executar a solução em Java:
+```bash
+javac BalancedExpression.java
+java BalancedExpression
+```
+Edite o arquivo `BalancedExpression.java` para testar diferentes expressões.
 
 ---
 
@@ -118,7 +148,9 @@ Caso queira testar diferentes tamanhos de tabuleiro e posições, edite o arquiv
 - **Java** para implementação dos algoritmos.
 - **Algoritmo de Programação Dinâmica** para LCS.
 - **Backtracking** para resolução do Sudoku.
-- **Busca em Largura (BFS)** para calcular o menor caminho do cavalo no xadrez.
+- **BFS (Busca em Largura)** para Jogo dos Cavalos no Xadrez.
+- **Pilhas (Stack)** para Expressão Matemática Balanceada.
+
 
 ## 👨‍💻 Autor
 Danilo Takeo Kanizawa
