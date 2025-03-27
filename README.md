@@ -152,7 +152,7 @@ Edite o arquivo `BalancedExpression.java` para testar diferentes expressões.
 
 ---
 
-## 6. ❓ Número Perdido
+## 5. ❓ Número Perdido
 
 ### ✨ Problema:
 Dado um array contendo `N-1` números distintos de `1` a `N`, encontrar o número que está faltando.
@@ -183,7 +183,7 @@ Edite o arquivo `NumeroPerdido.java` para testar diferentes listas de números.
 
 ---
 
-## 5. 🔍 Soma de Subconjuntos
+## 6. 🔍 Soma de Subconjuntos
 
 ### ✨ Problema:
 Dado um conjunto de números inteiros e um valor alvo `S`, determinar se existe um subconjunto cujos elementos somam exatamente `S`.
