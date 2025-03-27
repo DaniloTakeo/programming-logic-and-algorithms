@@ -2,6 +2,13 @@
 
 Este repositório tem como objetivo conter soluções para diversos desafios de lógica de programação.
 
+## 📌 Índice
+1. 🔢 [Longest Common Subsequence (LCS)](#1-longest-common-subsequence-lcs)
+2. 🎲 [Sudoku Solver](#2-sudoku-solver)
+3. ♞ [Jogo dos Cavalos no Xadrez](#3-jogo-dos-cavalos-no-xadrez)
+4. 🔢 [Expressão Matemática Balanceada](#4-expressao-matematica-balanceada)
+5. ❓ [Número Perdido](#5-numero-perdido)
+
 ## 1. 🔢 Longest Common Subsequence (LCS)
 
 ### ✨ Problema:
@@ -144,12 +151,44 @@ Edite o arquivo `BalancedExpression.java` para testar diferentes expressões.
 
 ---
 
+## 5. ❓ Número Perdido
+
+### ✨ Problema:
+Dado um array contendo `N-1` números distintos de `1` a `N`, encontrar o número que está faltando.
+
+### 🔄 Entrada:
+- Um array de inteiros contendo `N-1` elementos distintos no intervalo `1` a `N`.
+
+### 🔠 Saída:
+- O número que está faltando.
+
+### 📝 Exemplo:
+```bash
+Entrada:
+numeros = [1, 2, 4, 5, 6]
+n = 6
+
+Saída:
+Número perdido: 3
+```
+
+### ⚙️ Como Executar:
+Para compilar e executar a solução em Java:
+```bash
+javac NumeroPerdido.java
+java NumeroPerdido
+```
+Edite o arquivo `NumeroPerdido.java` para testar diferentes listas de números.
+
+---
+
 ## ✨ Tecnologias Utilizadas
 - **Java** para implementação dos algoritmos.
 - **Algoritmo de Programação Dinâmica** para LCS.
 - **Backtracking** para resolução do Sudoku.
 - **BFS (Busca em Largura)** para Jogo dos Cavalos no Xadrez.
 - **Pilhas (Stack)** para Expressão Matemática Balanceada.
+- **Matemática Simples** para encontrar o Número Perdido.
 
 
 ## 👨‍💻 Autor
