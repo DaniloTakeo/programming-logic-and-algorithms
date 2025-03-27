@@ -8,6 +8,7 @@ Este repositório tem como objetivo conter soluções para diversos desafios de 
 3. ♞ [Jogo dos Cavalos no Xadrez](#3-jogo-dos-cavalos-no-xadrez)
 4. 🔢 [Expressão Matemática Balanceada](#4-expressao-matematica-balanceada)
 5. ❓ [Número Perdido](#5-numero-perdido)
+6. [🔢 Soma de Subconjuntos](#6-soma-de-subconjuntos)
 
 ## 1. 🔢 Longest Common Subsequence (LCS)
 
@@ -182,14 +183,47 @@ Edite o arquivo `NumeroPerdido.java` para testar diferentes listas de números.
 
 ---
 
+## 5. 🔍 Soma de Subconjuntos
+
+### ✨ Problema:
+Dado um conjunto de números inteiros e um valor alvo `S`, determinar se existe um subconjunto cujos elementos somam exatamente `S`.
+
+### 🔄 Entrada:
+- Um número `n` indicando o tamanho do conjunto.
+- `n` números inteiros representando o conjunto.
+- Um número inteiro `S`, representando a soma alvo.
+
+### 🔠 Saída:
+- `true` se existir um subconjunto cuja soma seja exatamente `S`.
+- `false` caso contrário.
+
+### 📝 Exemplo:
+```bash
+Entrada:
+Tamanho do conjunto: 5
+Elementos do conjunto: [3, 34, 4, 12, 5]
+Soma alvo: 9
+
+Saída:
+true
+```
+
+### ⚙️ Como Executar:
+Para compilar e executar a solução em Java:
+```bash
+javac SubsetSum.java
+java SubsetSum
+```
+Altere os valores de entrada no arquivo `SubsetSum.java` para testar diferentes casos.
+
+---
+
 ## ✨ Tecnologias Utilizadas
 - **Java** para implementação dos algoritmos.
 - **Algoritmo de Programação Dinâmica** para LCS.
-- **Backtracking** para resolução do Sudoku.
+- **Backtracking** para resolução do Sudoku e para Soma de Subconjuntos.
 - **BFS (Busca em Largura)** para Jogo dos Cavalos no Xadrez.
 - **Pilhas (Stack)** para Expressão Matemática Balanceada.
-- **Matemática Simples** para encontrar o Número Perdido.
-
 
 ## 👨‍💻 Autor
 Danilo Takeo Kanizawa
