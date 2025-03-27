@@ -152,7 +152,7 @@ Edite o arquivo `BalancedExpression.java` para testar diferentes expressões.
 
 ---
 
-## 5. ❓ Número Perdido
+## 6. ❓ Número Perdido
 
 ### ✨ Problema:
 Dado um array contendo `N-1` números distintos de `1` a `N`, encontrar o número que está faltando.
