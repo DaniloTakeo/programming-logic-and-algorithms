@@ -9,6 +9,8 @@ Este repositório tem como objetivo conter soluções para diversos desafios de 
 4. 🔢 [Expressão Matemática Balanceada](#4-expressao-matematica-balanceada)
 5. ❓ [Número Perdido](#5-numero-perdido)
 6. [🔢 Soma de Subconjuntos](#6-soma-de-subconjuntos)
+7.  📊 Maior Área de um Retângulo em um Histograma
+
 
 ## 1. 🔢 Longest Common Subsequence (LCS)
 
@@ -207,6 +209,27 @@ Soma alvo: 9
 Saída:
 true
 ```
+---
+
+## 7. 📊 Maior Área de um Retângulo em um Histograma
+
+### ✨ Problema:
+Dado um array de inteiros `heights[]` onde cada elemento representa a altura de uma barra em um histograma (todas as barras têm largura unitária), encontre a área do maior retângulo que pode ser formado.
+
+### 🔄 Entrada:
+- Um array de inteiros representando as alturas das barras do histograma.
+
+### 🔠 Saída:
+- Um número inteiro representando a maior área possível de um retângulo dentro do histograma.
+
+### 📝 Exemplo:
+```bash
+Entrada:
+heights = [2, 1, 5, 6, 2, 3]
+
+Saída:
+10
+```
 
 ### ⚙️ Como Executar:
 Para compilar e executar a solução em Java:
@@ -224,6 +247,7 @@ Altere os valores de entrada no arquivo `SubsetSum.java` para testar diferentes 
 - **Backtracking** para resolução do Sudoku e para Soma de Subconjuntos.
 - **BFS (Busca em Largura)** para Jogo dos Cavalos no Xadrez.
 - **Pilhas (Stack)** para Expressão Matemática Balanceada.
+- **Pilha Monótona** para Maior Área de um Retângulo em um Histograma.
 
 ## 👨‍💻 Autor
 Danilo Takeo Kanizawa
