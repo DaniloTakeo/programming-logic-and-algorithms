@@ -3,14 +3,15 @@
 Este repositório tem como objetivo conter soluções para diversos desafios de lógica de programação.
 
 ## 📌 Índice
-1. 🔢 [Longest Common Subsequence (LCS)](#1-longest-common-subsequence-lcs)
-2. 🎲 [Sudoku Solver](#2-sudoku-solver)
-3. ♞ [Jogo dos Cavalos no Xadrez](#3-jogo-dos-cavalos-no-xadrez)
-4. 🔢 [Expressão Matemática Balanceada](#4-expressao-matematica-balanceada)
-5. ❓ [Número Perdido](#5-numero-perdido)
-6. [🔢 Soma de Subconjuntos](#6-soma-de-subconjuntos)
-7.  📊 Maior Área de um Retângulo em um Histograma
+1. 🔢 Longest Common Subsequence (LCS)
+2. 🎲 Sudoku Solver
+3. ♞ Jogo dos Cavalos no Xadrez
+4. 🔢 Expressão Matemática Balanceada
+5. 🔍 Número Perdido
+6. ➕ Soma de Subconjuntos
+7. 📊 Maior Área de um Retângulo em um Histograma
 
+---
 
 ## 1. 🔢 Longest Common Subsequence (LCS)
 
