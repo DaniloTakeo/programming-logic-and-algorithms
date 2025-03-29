@@ -10,6 +10,7 @@ Este repositório tem como objetivo conter soluções para diversos desafios de 
 5. 🔍 Número Perdido
 6. ➕ Soma de Subconjuntos
 7. 📊 Maior Área de um Retângulo em um Histograma
+8. 🌍 Ilhas em uma Matriz
 
 ---
 
@@ -239,6 +240,41 @@ javac SubsetSum.java
 java SubsetSum
 ```
 Altere os valores de entrada no arquivo `SubsetSum.java` para testar diferentes casos.
+
+---
+
+## 8. 🌍 Ilhas em uma Matriz
+
+### ✨ Problema:
+Dada uma matriz binária (contendo apenas `0s` e `1s`), uma ilha é definida como uma região contínua de `1s` conectados horizontalmente ou verticalmente. O objetivo é contar quantas ilhas existem na matriz.
+
+### 🔄 Entrada:
+- Uma matriz `N x M` composta por `0s` e `1s`.
+
+### 📄 Saída:
+- Um número inteiro representando a quantidade de ilhas encontradas.
+
+### 🗒️ Exemplo:
+```bash
+Entrada:
+[
+  [1, 1, 0, 0, 0],
+  [1, 1, 0, 0, 0],
+  [0, 0, 1, 0, 0],
+  [0, 0, 0, 1, 1]
+]
+
+Saída:
+3
+```
+
+### ⚙️ Como Executar:
+Para compilar e executar a solução em Java:
+```bash
+javac ContadorIlhas.java
+java ContadorIlhas
+```
+Edite o arquivo `ContadorIlhas.java` para testar diferentes matrizes de entrada.
 
 ---
 
