@@ -11,7 +11,8 @@ Este repositório tem como objetivo conter soluções para diversos desafios de 
 6. ➕ Soma de Subconjuntos
 7. 📊 Maior Área de um Retângulo em um Histograma
 8. 🌍 Ilhas em uma Matriz
-
+9. 🛤️ Caminho Mínimo em uma Matriz
+    
 ---
 
 ## 1. 🔢 Longest Common Subsequence (LCS)
@@ -266,6 +267,7 @@ Entrada:
 
 Saída:
 3
+
 ```
 
 ### ⚙️ Como Executar:
@@ -278,9 +280,45 @@ Edite o arquivo `ContadorIlhas.java` para testar diferentes matrizes de entrada.
 
 ---
 
+---
+
+## 9. 🛤️ Caminho Mínimo em uma Matriz
+
+### ✨ Problema:
+Dada uma matriz `N x M` onde cada célula contém um número, encontrar o caminho de custo mínimo do canto superior esquerdo `(0,0)` ao canto inferior direito `(N-1,M-1)`, podendo mover-se apenas para a direita ou para baixo.
+
+### 🔄 Entrada:
+- Uma matriz `N x M` de números inteiros.
+
+### 🔠 Saída:
+- O custo mínimo para percorrer o caminho da posição inicial até a posição final.
+
+### 📝 Exemplo:
+```bash
+Entrada:
+[
+  [1, 3, 1],
+  [1, 5, 1],
+  [4, 2, 1]
+]
+
+Saída:
+7
+```
+
+### ⚙️ Como Executar:
+Para compilar e executar a solução em Java:
+```bash
+javac MinPathSum.java
+java MinPathSum
+```
+Edite o arquivo `MinPathSum.java` para testar diferentes matrizes de entrada.
+
+---
+
 ## ✨ Tecnologias Utilizadas
 - **Java** para implementação dos algoritmos.
-- **Algoritmo de Programação Dinâmica** para LCS.
+- **Algoritmo de Programação Dinâmica** para LCS e Caminho Mínimo em uma Matriz.
 - **Backtracking** para resolução do Sudoku e para Soma de Subconjuntos.
 - **BFS (Busca em Largura)** para Jogo dos Cavalos no Xadrez.
 - **Pilhas (Stack)** para Expressão Matemática Balanceada.
