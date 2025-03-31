@@ -280,8 +280,6 @@ Edite o arquivo `ContadorIlhas.java` para testar diferentes matrizes de entrada.
 
 ---
 
----
-
 ## 9. 🛤️ Caminho Mínimo em uma Matriz
 
 ### ✨ Problema:
