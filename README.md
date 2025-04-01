@@ -12,6 +12,7 @@ Este repositório tem como objetivo conter soluções para diversos desafios de 
 7. 📊 Maior Área de um Retângulo em um Histograma
 8. 🌍 Ilhas em uma Matriz
 9. 🛤️ Caminho Mínimo em uma Matriz
+10. 🔠 Maior Substring Única
     
 ---
 
@@ -314,6 +315,45 @@ Edite o arquivo `MinPathSum.java` para testar diferentes matrizes de entrada.
 
 ---
 
+## 10. 🔠 Maior Substring Única
+
+### ✨ Problema:
+Dada uma string, encontrar a maior substring que não contenha caracteres repetidos.
+
+### 🔄 Entrada:
+- Uma string `S`.
+
+### 🔠 Saída:
+- A maior substring sem caracteres repetidos.
+
+### 📝 Exemplo:
+```bash
+Entrada:
+"abcabcbb"
+Saída:
+"abc"
+
+Entrada:
+"bbbbb"
+Saída:
+"b"
+
+Entrada:
+"pwwkew"
+Saída:
+"wke"
+```
+
+### ⚙️ Como Executar:
+Para compilar e executar a solução em Java:
+```bash
+javac MaiorSubstringUnica.java
+java MaiorSubstringUnica
+```
+Edite o arquivo `MaiorSubstringUnica.java` para testar diferentes entradas.
+
+---
+
 ## ✨ Tecnologias Utilizadas
 - **Java** para implementação dos algoritmos.
 - **Algoritmo de Programação Dinâmica** para LCS e Caminho Mínimo em uma Matriz.
@@ -321,6 +361,7 @@ Edite o arquivo `MinPathSum.java` para testar diferentes matrizes de entrada.
 - **BFS (Busca em Largura)** para Jogo dos Cavalos no Xadrez.
 - **Pilhas (Stack)** para Expressão Matemática Balanceada.
 - **Pilha Monótona** para Maior Área de um Retângulo em um Histograma.
+- **Técnica Sliding Window** para Maior Substring Única.
 
 ## 👨‍💻 Autor
 Danilo Takeo Kanizawa
