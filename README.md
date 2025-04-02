@@ -13,6 +13,7 @@ Este repositório tem como objetivo conter soluções para diversos desafios de 
 8. 🌍 Ilhas em uma Matriz
 9. 🛤️ Caminho Mínimo em uma Matriz
 10. 🔠 Maior Substring Única
+11. 📊 Ordenação por Frequência
     
 ---
 
@@ -354,14 +355,45 @@ Edite o arquivo `MaiorSubstringUnica.java` para testar diferentes entradas.
 
 ---
 
-## ✨ Tecnologias Utilizadas
-- **Java** para implementação dos algoritmos.
+## 11. 📊 Ordenação por Frequência
+
+### ✨ Problema:
+Dado um array de números inteiros, ordenar os elementos por frequência de ocorrência, do mais frequente para o menos frequente. Em caso de empate, os números devem ser ordenados em ordem crescente.
+
+### 🔄 Entrada:
+- Um array de inteiros.
+
+### 🔠 Saída:
+- O array ordenado de acordo com a frequência dos elementos.
+
+### 📝 Exemplo:
+```bash
+Entrada:
+nums = {4, 5, 6, 5, 4, 3}
+
+Saída:
+[5, 5, 4, 4, 3, 6]
+```
+
+### ⚙️ Como Executar:
+Para compilar e executar a solução em Java:
+```bash
+javac FrequencySort.java
+java FrequencySort
+```
+Edite o arquivo `FrequencySort.java` para testar diferentes entradas.
+
+---
+
+## ✨ Tecnologias e Rrecursos Utilizados
+- **Java 20** para implementação dos algoritmos.
 - **Algoritmo de Programação Dinâmica** para LCS e Caminho Mínimo em uma Matriz.
 - **Backtracking** para resolução do Sudoku e para Soma de Subconjuntos.
 - **BFS (Busca em Largura)** para Jogo dos Cavalos no Xadrez.
 - **Pilhas (Stack)** para Expressão Matemática Balanceada.
 - **Pilha Monótona** para Maior Área de um Retângulo em um Histograma.
 - **Técnica Sliding Window** para Maior Substring Única.
+- **Ordenação e HashMap** para Ordenação por Frequência.
 
 ## 👨‍💻 Autor
 Danilo Takeo Kanizawa
