@@ -14,6 +14,7 @@ Este repositório tem como objetivo conter soluções para diversos desafios de 
 9. 🛤️ Caminho Mínimo em uma Matriz
 10. 🔠 Maior Substring Única
 11. 📊 Ordenação por Frequência
+12. ✨ Número Mágico
     
 ---
 
@@ -382,6 +383,41 @@ javac FrequencySort.java
 java FrequencySort
 ```
 Edite o arquivo `FrequencySort.java` para testar diferentes entradas.
+
+## 12. ✨ Número Mágico
+
+### ✨ Problema:
+Dado um número inteiro positivo `n`, determinar se ele é um "Número Mágico". Um número é considerado mágico se, ao substituir o número pela soma dos quadrados de seus dígitos repetidamente, eventualmente resulta em `1`. Se entrar em um ciclo infinito, ele não é um número mágico.
+
+### 🔄 Entrada:
+- Um número inteiro positivo `n`.
+
+### 🔠 Saída:
+- `true` se o número for mágico.
+- `false` caso contrário.
+
+### 📝 Exemplo:
+```bash
+Entrada:
+n = 19
+
+Saída:
+true
+
+Entrada:
+n = 20
+
+Saída:
+false
+```
+
+### ⚙️ Como Executar:
+Para compilar e executar a solução em Java:
+```bash
+javac NumeroMagico.java
+java NumeroMagico
+```
+Edite o arquivo `NumeroMagico.java` para testar diferentes entradas.
 
 ---
 
