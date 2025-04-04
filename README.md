@@ -15,6 +15,7 @@ Este repositório tem como objetivo conter soluções para diversos desafios de 
 10. 🔠 Maior Substring Única
 11. 📊 Ordenação por Frequência
 12. ✨ Número Mágico
+13. 🔎 Encontre o Elemento Único
     
 ---
 
@@ -419,8 +420,35 @@ java NumeroMagico
 ```
 Edite o arquivo `NumeroMagico.java` para testar diferentes entradas.
 
----
+## 13. 🔎 Encontre o Elemento Único
 
+### ✨ Problema:
+Dado um array de números inteiros, encontrar o único elemento que aparece exatamente uma vez, enquanto os outros elementos podem aparecer múltiplas vezes.
+
+### 🔄 Entrada:
+- Um array de números inteiros.
+
+### 🔠 Saída:
+- O número que aparece apenas uma vez.
+
+### 📝 Exemplo:
+```bash
+Entrada:
+nums = [4, 1, 2, 1, 2, 4, 3, 3, 3, 2, 5]
+
+Saída:
+5
+```
+
+### ⚙️ Como Executar:
+Para compilar e executar a solução em Java:
+```bash
+javac UniqueElement.java
+java UniqueElement
+```
+Edite o arquivo `UniqueElement.java` para testar diferentes casos de entrada.
+
+---
 ## ✨ Tecnologias e Rrecursos Utilizados
 - **Java 20** para implementação dos algoritmos.
 - **Algoritmo de Programação Dinâmica** para LCS e Caminho Mínimo em uma Matriz.
