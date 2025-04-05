@@ -16,6 +16,7 @@ Este repositório tem como objetivo conter soluções para diversos desafios de 
 11. 📊 Ordenação por Frequência
 12. ✨ Número Mágico
 13. 🔎 Encontre o Elemento Único
+14. 🔤 Transformação da String
     
 ---
 
@@ -448,7 +449,19 @@ java UniqueElement
 ```
 Edite o arquivo `UniqueElement.java` para testar diferentes casos de entrada.
 
+## 14. 🔤 Transformação de String
+
+### ✨ Problema:
+Dadas duas strings `s` e `t` de mesmo tamanho, determinar se é possível transformar `s` em `t` trocando os caracteres diferentes um a um.
+
+### ⚙️ Como Executar:
+```bash
+javac StringTransformation.java
+java StringTransformation
+```
+
 ---
+
 ## ✨ Tecnologias e Rrecursos Utilizados
 - **Java 20** para implementação dos algoritmos.
 - **Algoritmo de Programação Dinâmica** para LCS e Caminho Mínimo em uma Matriz.
